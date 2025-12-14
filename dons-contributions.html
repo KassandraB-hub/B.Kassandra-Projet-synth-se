@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -12,37 +12,43 @@
         <title>Donations et contributions</title>
     </head>
     <body>
-        <header class="header">
+         <header class="header">
             <nav class="header__navbar navbar navbar-expand-lg">
                 <div class="header__container container">
-                    <a class="header__brand navbar-brand" href="index.html">
-                        <h1>Refuge le château</h1>
-                    </a>
-                    <div class="header__collapse collapse navbar-collapse" id="headerNavContent">
-                        <ul class="header__nav navbar-nav ms-md-auto mb-2 mb-lg-0 text-center text-md-start">
+                    <div>
+                        <a class="header__brand navbar-brand" href="index.html">
+                            <h1>Refuge le château</h1>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavContent" aria-controls="headerNavContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="header__collapse collapse navbar-collapse navbar-expand-lg" id="headerNavContent">
+                        <ul class="header__nav navbar-nav navbar ms-md-auto mb-2 mb-lg-0 text-center text-md-start">
                             <li class="header__item nav-item">
-                                <a class="header__link nav-link" href="donations_contributions.html">Donations et contributions </a>
+                                <a class="header__link nav-link" href="dons-contributions.html">Donations et contributions </a>
                             </li>
                             <li class="header__item nav-item">
-                                <a class="header__link nav-link" href="cafe_chat.html"
+                                <a class="header__link nav-link" href="cafe-chat.html"
                                     onclick="openForm()">Café Chat L'Étoile</a>
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <div class="input-group">
-                            <input type="search" class="form-control mr-sm-2 " placeholder ="Rechercher..." aria-label="Recherche" >
+                                <input type="search" class="form-control mr-sm-2" placeholder="Rechercher..." aria-label="Recherche">
+                            </div>
                         </form>
                     </div>
                 </div>
             </nav>
         </header>
         <main>
-            <section>
-                <div class="row justify-content-betwee">
-                    <div class="row col-6 mt-4">
-                        <img src="Images/dons.jpg" class="img-donnation" alt="Image de donations" class="img-fluid mb-4">
+            <section class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-12 col-xl-6 mt-4">
+                        <img src="Images/dons.jpg" class="img-donnation img-fluid mb-4" alt="Image de donations">
                     </div>
-                    <div class="col-4 mt-5">
+                    <div class="col-12 col-md-12 col-xl-6 mt-4">
                         <h1>L'importance des dons</h1>
                         <p> Dans un refuge animalier qui ne reçoit aucune subvention, chaque geste de générosité fait toute la différence. Sans aide gouvernementale, les dons sont notre seule source de survie et permettent d’offrir à nos pensionnaires les soins essentiels dont ils ont besoin : nourriture, vaccins, stérilisation, produits d’hygiène, couvertures, entretien des espaces, soins spécialisés… tout cela est rendu possible grâce à vous. Chaque dollar donné contribue directement à sauver des vies, à offrir une seconde chance à des animaux abandonnés, blessés ou négligés. 
                         Votre soutien nous permet aussi de poursuivre notre mission : accueillir, soigner, protéger et trouver une famille aimante à ceux qui n’en ont plus.Un don, même petit, crée un impact immense. </p>
@@ -98,7 +104,7 @@
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                         <p>Besoin d’inspiration pour votre don ? Visitez notre liste Amazon : choisissez les articles que vous souhaitez nous offrir, et ils seront livrés directement au refuge, sans aucune étape supplémentaire de votre part. Une façon simple, rapide et efficace de nous soutenir ! <a href="https://www.amazon.ca/hz/wishlist/ls/2CIO1W60FE5QR?ref_=wl_share fbclid=IwY2xjawOn_axleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeDl59dlB0lvg4zoPMut6lDElD5AGKl5_LzlS-7aiJ7VpaeYTuN2OY-CurAiY_aem_A9H9_G03ghc0q2OkWtfm_w" class="_blank">Notre liste de souhaits</a><p>
+                            <p>Besoin d’inspiration pour votre don ? Visitez notre liste Amazon : choisissez les articles que vous souhaitez nous offrir, et ils seront livrés directement au refuge, sans aucune étape supplémentaire de votre part. Une façon simple, rapide et efficace de nous soutenir ! <a href="https://www.amazon.ca/hz/wishlist/ls/2CIO1W60FE5QR?ref_=wl_share%20fbclid=IwY2xjawOn_axleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeDl59dlB0lvg4zoPMut6lDElD5AGKl5_LzlS-7aiJ7VpaeYTuN2OY-CurAiY_aem_A9H9_G03ghc0q2OkWtfm_w">Notre liste de souhaits</a></p>
                         </div>
                     </div>
                     </div>
@@ -114,7 +120,7 @@
                     <form class="g-3">
                         <div class="col-md-6">
                             <label for="inputName" class="form-label">Nom, Prénom</label>
-                            <input type="name" class="form-control" id="inputName" required placeholder="Nom complet">
+                            <input type="text" class="form-control" id="inputName" required placeholder="Nom complet">
                         </div>
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Courriel</label>
@@ -127,7 +133,7 @@
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Montant</label>
                             <select id="inputState" required class="form-select">
-                            <option selected>Choisir</option>
+                            <option value="">Choisir</option>
                             <option>5,00$</option>
                             <option>10,00$</option>
                             <option>15,00$</option>
@@ -139,22 +145,20 @@
                         <h2 class="mt-2">Paiement</h2>
                         <div class="row">
                             <div class="col-4">
-                                <label for="inputZip" class="form-label">Carte de crédit</label>
-                                <input type="text" class="form-control" id="inputZip">
+                                <label for="inputCard" class="form-label">Carte de crédit</label>
+                                <input type="text" class="form-control" id="inputCard">
                             </div>
                             <div class="col-4 mb-2">
-                                <label for="inputZip" class="form-label">Expiration</label>
-                                <input type="text" class="form-control" id="inputZip" required placeholder="MM/AA">
+                                <label for="inputExpiration" class="form-label">Expiration</label>
+                                <input type="text" class="form-control" id="inputExpiration" required placeholder="MM/AA">
                             </div>
                             <div class="col-4 mr-4 mb-2">
-                                <label for="inputZip" class="form-label">CVV</label>
-                                <input type="text" class="form-control" id="inputZip" required placeholder="123">
+                                <label for="inputCVV" class="form-label">CVV</label>
+                                <input type="text" class="form-control" id="inputCVV" required placeholder="123">
                             </div>
                         </div>
                         <div class="col-12 mt-3 mb-5">
-                            <a href="confirmation_don.html">
-                            <button type="submit" class="btn btn-primary">Confirmer</button>
-                            </a>
+                            <button type="submit" class="btn btn-primary" onclick="window.location.href='confirmation-paiement.html'">Confirmer</button>
                         </div>
                     </form>
                 </div>    
@@ -162,7 +166,7 @@
         </main>
         <footer>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6 col-xl-6">
                     <h1>COORDONNÉES</h1>
                     <ul>
                         <li>
@@ -176,7 +180,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6 col-xl-6">
                     <h1>HEURES D'OUVERTURE</h1>
                     <ul>
                         <li>

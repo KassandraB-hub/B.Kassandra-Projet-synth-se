@@ -12,11 +12,19 @@ footer {
 h1{
     font-family: var(--Quintessentielle);
     font-size: 30px;
+
+    @media screen and (min-width: 0px) and (max-width: 500px) {
+        font-size: 22px;
+    }
 }
 
 h2{
     font-family: var(--Quintessentielle);
     font-size: 22px;
+
+    @media screen and (min-width: 0px) and (max-width: 500px) {
+        font-size: 20px;
+    }
 }
 
 li{
@@ -61,4 +69,11 @@ a{
         background-color: var(--primary);
         color: white;
     }
+}
+
+.navbar-toggler {
+    padding: 0;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
 }

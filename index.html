@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
@@ -15,22 +15,28 @@
         <header class="header">
             <nav class="header__navbar navbar navbar-expand-lg">
                 <div class="header__container container">
-                    <a class="header__brand navbar-brand" href="index.html">
-                        <h1>Refuge le château</h1>
-                    </a>
-                    <div class="header__collapse collapse navbar-collapse" id="headerNavContent">
-                        <ul class="header__nav navbar-nav ms-md-auto mb-2 mb-lg-0 text-center text-md-start">
+                    <div>
+                        <a class="header__brand navbar-brand" href="index.html">
+                            <h1>Refuge le château</h1>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerNavContent" aria-controls="headerNavContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="header__collapse collapse navbar-collapse navbar-expand-lg" id="headerNavContent">
+                        <ul class="header__nav navbar-nav navbar ms-md-auto mb-2 mb-lg-0 text-center text-md-start">
                             <li class="header__item nav-item">
-                                <a class="header__link nav-link" href="donations_contributions.html">Donations et contributions </a>
+                                <a class="header__link nav-link" href="dons-contributions.html">Donations et contributions </a>
                             </li>
                             <li class="header__item nav-item">
-                                <a class="header__link nav-link" href="cafe_chat.html"
+                                <a class="header__link nav-link" href="cafe-chat.html"
                                     onclick="openForm()">Café Chat L'Étoile</a>
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
                             <div class="input-group">
-                            <input type="search" class="form-control mr-sm-2 " placeholder ="Rechercher..." aria-label="Recherche" >
+                                <input type="search" class="form-control mr-sm-2" placeholder="Rechercher..." aria-label="Recherche">
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -49,25 +55,19 @@
                     <div class="col-5">
                         <h2>Adoption</h2>
                         <p>Il nous est difficile de garder une liste à jours des chats disponibles pour adoption. Nous vous suggérons donc d'aller faire un tour sur notre page Facebook ou mieux encore de nous visiter directement au refuge. De nouveaux chats entrent à presque tous les jours et rien ne vaut une rencontre en personne pour mieux les connaitre.</p>
-                        <a href="https://www.facebook.com/media/set/?set=a.272601842122916&type=3" target="_blank">
-                            <button class="btn btn-primary mb-4">Adopter maintenant</button>
-                        </a>
+                        <a href="https://www.facebook.com/media/set/?set=a.272601842122916&type=3" target="_blank" class="btn btn-primary mb-4 d-inline-block">Adopter maintenant</a>
                     </div>
                 </div>
                 <div class="row justify-content-between">    
                     <div class="col-5">
                         <h2>Dons et contributions</h2>
                         <p>Au refuge tous les dons comptent! Il y a tant de façons de nous aider à prendre bien soin de nos pensionnaires et s'assurer de leur donner les soins nécessaires. Chaque dollar compte puisque ne nous recevons aucune subvention.</p>
-                        <a href="donations_contributions.html" target="_blank">
-                            <button class="btn btn-primary mb-4" >En savoir plus</button>
-                        </a>
+                        <a href="dons-contributions.html" target="_blank" class="btn btn-primary mb-4 d-inline-block">En savoir plus</a>
                     </div>
                     <div class="col-5">
                         <h2>Café Chat L'Étoile</h2>
                         <p>Le café chat l'étoile de son côté, est l'endroit parfait pour venir prendre un café ou autre rafraichissement et relaxer avec ses occupants. Plusieurs chats y vivent en toute liberté et n'hésite à demander de l'attention.</p>
-                        <a href="cafe_chat.html" target="_blank">
-                            <button class="btn btn-primary mb-4" onclick="openForm()">En savoir plus</button>
-                        </a>
+                        <a href="cafe-chat.html" target="_blank" class="btn btn-primary mb-4 d-inline-block" onclick="openForm()">En savoir plus</a>
                     </div> 
                 </div>       
             </section>
@@ -167,7 +167,6 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
-                    </div>  
                 </div>
             </section>
             <hr class="col-9 mx-auto my-4">
@@ -177,32 +176,32 @@
                     <div class="row g-4">
                     <div class="col-6 col-md-4">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.1.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.1.jpg" alt="gallery">
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.2.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.2.jpg" alt="gallery">
                         </div>
                     </div>
                     <div class="col-6 col-md-4 offset-3 offset-md-0">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.3.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.3.jpg" alt="gallery">
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.4.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.4.jpg" alt="gallery">
                         </div>
                     </div>
                     <div class="col-6 col-md-4">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.5.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.5.jpg" alt="gallery">
                         </div>
                     </div>
                     <div class="col-6 col-md-4 offset-3 offset-md-0">
                         <div class="ratio ratio-1x1">
-                        <img class="interactive-image" src="Images/galerie.6.jpg" class="img-fluid gallery__img" alt="gallery">
+                        <img class="interactive-image img-fluid gallery__img" src="Images/galerie.6.jpg" alt="gallery">
                         </div>
                     </div>
                     </div>
@@ -211,7 +210,7 @@
         </main>
         <footer>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6 col-xl-6">
                     <h1>COORDONNÉES</h1>
                     <ul>
                         <li>
@@ -225,7 +224,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6 col-xl-6">
                     <h1>HEURES D'OUVERTURE</h1>
                     <ul>
                         <li>
