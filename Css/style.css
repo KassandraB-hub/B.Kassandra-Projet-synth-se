@@ -1,0 +1,19 @@
+.carousel-item img {
+  height: 700px; 
+}
+
+.interactive-image{
+    transition: transform 0.3s ease; 
+
+    &:hover {
+        transform: scale(1.1); 
+    }
+}
+
+.change-size{
+    font-size: 20px;
+}
+
+footer{
+  padding-left: 15%;
+}
